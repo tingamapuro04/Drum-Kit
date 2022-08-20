@@ -1,5 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# Preview
+![](./Snap.jpeg)
+
 # Project Name
 Drums
 

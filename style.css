@@ -5,12 +5,18 @@
   font-family: sans-serif;
 }
 
+body {
+  background: url("./concert.jpeg") no-repeat;
+  background-size: cover;
+}
+
 .keys {
   display: flex;
   position: relative;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 12%;
   padding: 5% 2%;
 }
 
@@ -22,6 +28,9 @@
   flex-direction: column;
   align-items: center;
   transition: all 0.05s;
+  background: #369cfe;
+  color: white;
+  font-style: italic;
 }
 
 .playing {

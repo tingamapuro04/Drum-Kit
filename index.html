@@ -4,28 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>DrumKit</title>
 </head>
 <body>
   <h1>Hello world</h1>
-  <audio controls src="./Sounds/01 - JavaScript Drum Kit_sounds_boom.wav">Boom</audio>
   <div class="keys">
-    <div class="key">
+    <div data-key="65" class="key">
       <kbd>A</kbd>
       <span class="sound">boom</span>
     </div>
-    <div class="key">
+    <div data-key="83" class="key">
       <kbd>S</kbd>
       <span class="sound">Hit</span>
     </div>
-    <div class="key">
+    <div data-key="68" class="key">
       <kbd>D</kbd>
       <span class="sound">Chat</span>
     </div>
-    <div class="key">
+    <div data-key="70" class="key">
       <kbd>F</kbd>
       <span class="sound">Dirum</span>
     </div>
   </div>
+
+  <audio data-key="65" src="./Sounds/01 - JavaScript Drum Kit_sounds_boom.wav"></audio>
+  <audio data-key="83"  src="./Sounds/01 - JavaScript Drum Kit_sounds_clap.wav"></audio>
+  <audio data-key="68"  src="./Sounds/01 - JavaScript Drum Kit_sounds_hihat.wav"></audio>
+  <audio data-key="70"  src="./Sounds/01 - JavaScript Drum Kit_sounds_kick.wav"></audio>
+
+
+
+
+  <script src="index.js"></script>
 </body>
 </html>
